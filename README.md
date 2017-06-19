@@ -7,13 +7,10 @@ starts libFuzzer for X time on Y threads, and starts covtracker
 starts AFL for X time on Y threads, and starts covtracker
 
 -run_switcher.py:
-runs the cooperative fuzzer of AFL and libFuzzer, for X time on Y threads, and starts covtracker_sw
+runs the cooperative fuzzer of AFL and libFuzzer, for X time on Y threads
 
 -covtracker.py:
 periodically copies the current corpus to a new folder (and collects all of them here)
-  
--covtracker_sw.py:
-specialized covtracker, which is used by the switcher
 
 -metric_cov.py:
 will calculate the coverage for a collection of corpora (takes the folder produced by covtracker as input)
