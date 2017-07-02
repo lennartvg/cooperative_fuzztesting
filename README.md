@@ -1,10 +1,10 @@
 # VU_cooperative_fuzz
 
 -run_lf.py: 
-starts libFuzzer for 6 hours time on 4 threads, and starts the covtracker
+runs libFuzzer for 6 hours on 4 threads, and starts the covtracker
 
 -run_afl.py:
-starts AFL for 6 hours on 4 threads, and starts the covtracker
+runs AFL for 6 hours on 4 threads, and starts the covtracker
 
 -run_cooperative.py:
 runs the cooperative fuzzer of AFL and libFuzzer, for 12 hours on 4 threads (per round: afl 40min, lf 20min)
