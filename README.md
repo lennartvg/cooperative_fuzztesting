@@ -12,6 +12,7 @@ has an inbuilt coverage tracker
 
 -covtracker.py:
 periodically copies the current corpus to the directory "r_<specified_output_corpus>" (and collects all of them here)
+currently the measurement interval is set to 1 hour
 
 -metric_cov.py:
 will calculate the coverage progression given a collection of corpora (takes the folder produced by covtracker as input)
