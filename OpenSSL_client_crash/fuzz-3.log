@@ -1,0 +1,132 @@
+INFO: Seed: 2026009550
+INFO: Loaded 1 modules (41848 guards): [0xe5a270, 0xe83050), 
+Loading corpus dir: newoutlf_client
+Loading corpus dir: cmin_client
+Loaded 1024/1192 files from cmin_client
+INFO: -max_len is not provided, using 16645
+#0	READ units: 1192
+#1024	pulse  cov: 5796 ft: 14929 corp: 1022/722Kb exec/s: 341 rss: 273Mb
+#1192	INITED cov: 5933 ft: 16191 corp: 1190/1251Kb exec/s: 397 rss: 317Mb
+#1283	NEW    cov: 5933 ft: 16192 corp: 1191/1254Kb exec/s: 427 rss: 331Mb L: 3160 MS: 1 ChangeByte-
+#1404	NEW    cov: 5933 ft: 16194 corp: 1192/1258Kb exec/s: 351 rss: 347Mb L: 4467 MS: 2 CopyPart-CMP- DE: "\x0c\x00\x00\x00\x00\x00\x00\x00"-
+#1414	NEW    cov: 5934 ft: 16195 corp: 1193/1259Kb exec/s: 353 rss: 348Mb L: 728 MS: 2 ChangeBit-ShuffleBytes-
+#1518	NEW    cov: 5934 ft: 16196 corp: 1194/1259Kb exec/s: 379 rss: 362Mb L: 524 MS: 1 EraseBytes-
+#1527	NEW    cov: 5934 ft: 16197 corp: 1195/1262Kb exec/s: 381 rss: 363Mb L: 3176 MS: 5 CMP-ShuffleBytes-ShuffleBytes-ChangeBinInt-InsertByte- DE: "COMPLEMENTOFDEFAULT"-
+#1797	RELOAD cov: 5935 ft: 16199 corp: 1197/1264Kb exec/s: 449 rss: 383Mb
+#2048	pulse  cov: 5935 ft: 16199 corp: 1197/1264Kb exec/s: 512 rss: 391Mb
+#2567	RELOAD cov: 5935 ft: 16201 corp: 1199/1265Kb exec/s: 513 rss: 404Mb
+#3304	RELOAD cov: 5937 ft: 16207 corp: 1204/1282Kb exec/s: 550 rss: 428Mb
+#3395	NEW    cov: 5937 ft: 16208 corp: 1205/1283Kb exec/s: 565 rss: 436Mb L: 1044 MS: 1 ChangeBit-
+#3984	NEW    cov: 5937 ft: 16210 corp: 1206/1286Kb exec/s: 569 rss: 438Mb L: 3077 MS: 5 CrossOver-InsertRepeatedBytes-ChangeBinInt-ShuffleBytes-CMP- DE: "\x00\x00\x00\x00\x00\x00\x00\x06"-
+#4096	pulse  cov: 5937 ft: 16210 corp: 1206/1286Kb exec/s: 585 rss: 438Mb
+#4117	RELOAD cov: 5937 ft: 16211 corp: 1207/1287Kb exec/s: 588 rss: 439Mb
+#5039	RELOAD cov: 5937 ft: 16213 corp: 1208/1288Kb exec/s: 629 rss: 443Mb
+#5977	RELOAD cov: 5937 ft: 16215 corp: 1210/1290Kb exec/s: 664 rss: 445Mb
+#6854	RELOAD cov: 5938 ft: 16217 corp: 1212/1292Kb exec/s: 685 rss: 447Mb
+#7206	NEW    cov: 5938 ft: 16218 corp: 1213/1293Kb exec/s: 655 rss: 447Mb L: 1044 MS: 2 ChangeBinInt-ChangeByte-
+#7740	RELOAD cov: 5938 ft: 16219 corp: 1214/1294Kb exec/s: 703 rss: 449Mb
+#8192	pulse  cov: 5938 ft: 16219 corp: 1214/1294Kb exec/s: 682 rss: 449Mb
+#8656	RELOAD cov: 5938 ft: 16220 corp: 1215/1294Kb exec/s: 721 rss: 451Mb
+#9527	RELOAD cov: 5938 ft: 16221 corp: 1216/1296Kb exec/s: 732 rss: 452Mb
+#10438	RELOAD cov: 5938 ft: 16222 corp: 1217/1296Kb exec/s: 745 rss: 454Mb
+#12057	NEW    cov: 5939 ft: 16223 corp: 1218/1298Kb exec/s: 753 rss: 456Mb L: 2542 MS: 4 EraseBytes-InsertRepeatedBytes-ShuffleBytes-CMP- DE: "\x00\x00\x00\x0e"-
+#14099	RELOAD cov: 5939 ft: 16224 corp: 1219/1299Kb exec/s: 783 rss: 459Mb
+#15925	RELOAD cov: 5939 ft: 16225 corp: 1220/1300Kb exec/s: 796 rss: 461Mb
+#16384	pulse  cov: 5939 ft: 16225 corp: 1220/1300Kb exec/s: 780 rss: 461Mb
+#20466	RELOAD cov: 5939 ft: 16226 corp: 1221/1301Kb exec/s: 818 rss: 465Mb
+#21347	RELOAD cov: 5939 ft: 16228 corp: 1222/1303Kb exec/s: 821 rss: 466Mb
+#23154	RELOAD cov: 5939 ft: 16230 corp: 1224/1305Kb exec/s: 826 rss: 468Mb
+#24935	RELOAD cov: 5939 ft: 16231 corp: 1225/1306Kb exec/s: 831 rss: 470Mb
+#27486	RELOAD cov: 5939 ft: 16233 corp: 1226/1308Kb exec/s: 832 rss: 472Mb
+#30263	RELOAD cov: 5939 ft: 16236 corp: 1228/1310Kb exec/s: 840 rss: 474Mb
+#31184	RELOAD cov: 5939 ft: 16237 corp: 1229/1311Kb exec/s: 842 rss: 475Mb
+#32768	pulse  cov: 5939 ft: 16237 corp: 1229/1311Kb exec/s: 840 rss: 476Mb
+#33835	RELOAD cov: 5939 ft: 16238 corp: 1230/1312Kb exec/s: 845 rss: 477Mb
+#38371	RELOAD cov: 5939 ft: 16239 corp: 1231/1313Kb exec/s: 852 rss: 481Mb
+#44592	RELOAD cov: 5940 ft: 16240 corp: 1232/1316Kb exec/s: 857 rss: 484Mb
+#58638	RELOAD cov: 5940 ft: 16241 corp: 1233/1317Kb exec/s: 862 rss: 489Mb
+#65536	pulse  cov: 5940 ft: 16241 corp: 1233/1317Kb exec/s: 851 rss: 491Mb
+#78864	RELOAD cov: 5940 ft: 16242 corp: 1234/1318Kb exec/s: 857 rss: 494Mb
+#92616	NEW    cov: 5940 ft: 16244 corp: 1235/1319Kb exec/s: 865 rss: 496Mb L: 1252 MS: 2 CMP-CMP- DE: "\x11\x00\x00\x00\x00\x00\x00\x00"-"\x00\x00\x00\x03"-
+#96460	RELOAD cov: 5940 ft: 16246 corp: 1236/1321Kb exec/s: 861 rss: 497Mb
+#115511	RELOAD cov: 5940 ft: 16247 corp: 1237/1322Kb exec/s: 862 rss: 498Mb
+#124197	RELOAD cov: 5940 ft: 16248 corp: 1238/1322Kb exec/s: 862 rss: 499Mb
+#125988	RELOAD cov: 5940 ft: 16249 corp: 1239/1323Kb exec/s: 862 rss: 499Mb
+#127714	RELOAD cov: 5940 ft: 16251 corp: 1240/1324Kb exec/s: 862 rss: 499Mb
+#131072	pulse  cov: 5940 ft: 16251 corp: 1240/1324Kb exec/s: 862 rss: 499Mb
+#145830	RELOAD cov: 5940 ft: 16254 corp: 1241/1325Kb exec/s: 862 rss: 500Mb
+#165656	RELOAD cov: 5941 ft: 16255 corp: 1242/1328Kb exec/s: 862 rss: 501Mb
+#182037	RELOAD cov: 5941 ft: 16256 corp: 1243/1329Kb exec/s: 862 rss: 502Mb
+#262144	pulse  cov: 5941 ft: 16256 corp: 1243/1329Kb exec/s: 862 rss: 503Mb
+#265683	NEW    cov: 5941 ft: 16257 corp: 1244/1330Kb exec/s: 862 rss: 503Mb L: 945 MS: 1 InsertByte-
+#277408	RELOAD cov: 5941 ft: 16259 corp: 1245/1331Kb exec/s: 861 rss: 503Mb
+#435734	RELOAD cov: 5941 ft: 16260 corp: 1246/1337Kb exec/s: 859 rss: 503Mb
+#487255	RELOAD cov: 5942 ft: 16261 corp: 1247/1337Kb exec/s: 857 rss: 504Mb
+#524288	pulse  cov: 5942 ft: 16261 corp: 1247/1337Kb exec/s: 856 rss: 504Mb
+#531996	RELOAD cov: 5943 ft: 16262 corp: 1248/1338Kb exec/s: 856 rss: 504Mb
+#548133	NEW    cov: 5944 ft: 16263 corp: 1249/1338Kb exec/s: 856 rss: 504Mb L: 110 MS: 1 InsertRepeatedBytes-
+#651584	RELOAD cov: 5944 ft: 16264 corp: 1250/1340Kb exec/s: 855 rss: 504Mb
+#759220	RELOAD cov: 5944 ft: 16266 corp: 1251/1342Kb exec/s: 854 rss: 504Mb
+#777921	RELOAD cov: 5944 ft: 16267 corp: 1252/1345Kb exec/s: 853 rss: 504Mb
+#874349	NEW    cov: 5944 ft: 16268 corp: 1253/1346Kb exec/s: 853 rss: 504Mb L: 1044 MS: 2 ShuffleBytes-ChangeASCIIInt-
+#882724	RELOAD cov: 5944 ft: 16269 corp: 1254/1347Kb exec/s: 853 rss: 504Mb
+#932605	RELOAD cov: 5944 ft: 16270 corp: 1255/1348Kb exec/s: 853 rss: 504Mb
+#969946	RELOAD cov: 5945 ft: 16271 corp: 1256/1349Kb exec/s: 853 rss: 504Mb
+#1048576	pulse  cov: 5945 ft: 16271 corp: 1256/1349Kb exec/s: 852 rss: 504Mb
+#1228412	RELOAD cov: 5945 ft: 16272 corp: 1257/1358Kb exec/s: 851 rss: 504Mb
+#1578964	NEW    cov: 5945 ft: 16274 corp: 1258/1360Kb exec/s: 850 rss: 505Mb L: 1967 MS: 2 EraseBytes-CopyPart-
+#1579603	RELOAD cov: 5945 ft: 16275 corp: 1259/1361Kb exec/s: 851 rss: 505Mb
+#1637265	RELOAD cov: 5945 ft: 16278 corp: 1260/1364Kb exec/s: 850 rss: 505Mb
+#1804046	RELOAD cov: 5945 ft: 16280 corp: 1261/1380Kb exec/s: 849 rss: 505Mb
+#1912513	NEW    cov: 5945 ft: 16281 corp: 1262/1384Kb exec/s: 849 rss: 505Mb L: 3492 MS: 2 ShuffleBytes-ChangeBinInt-
+#1953872	RELOAD cov: 5945 ft: 16283 corp: 1263/1400Kb exec/s: 849 rss: 505Mb
+#2097152	pulse  cov: 5945 ft: 16283 corp: 1263/1400Kb exec/s: 849 rss: 505Mb
+#2467615	RELOAD cov: 5945 ft: 16284 corp: 1264/1400Kb exec/s: 848 rss: 505Mb
+#2959011	RELOAD cov: 5945 ft: 16285 corp: 1265/1402Kb exec/s: 848 rss: 506Mb
+#3153649	NEW    cov: 5945 ft: 16286 corp: 1266/1403Kb exec/s: 848 rss: 506Mb L: 1044 MS: 3 ChangeByte-ChangeBinInt-ChangeBit-
+#3352337	RELOAD cov: 5945 ft: 16288 corp: 1267/1403Kb exec/s: 848 rss: 507Mb
+#3496643	RELOAD cov: 5945 ft: 16289 corp: 1268/1409Kb exec/s: 848 rss: 507Mb
+#3506904	RELOAD cov: 5945 ft: 16291 corp: 1269/1415Kb exec/s: 848 rss: 507Mb
+#3878490	RELOAD cov: 5945 ft: 16292 corp: 1270/1421Kb exec/s: 847 rss: 507Mb
+#4194304	pulse  cov: 5945 ft: 16292 corp: 1270/1421Kb exec/s: 847 rss: 507Mb
+#4597006	RELOAD cov: 5945 ft: 16293 corp: 1271/1421Kb exec/s: 847 rss: 507Mb
+#4828777	RELOAD cov: 5945 ft: 16294 corp: 1272/1421Kb exec/s: 847 rss: 507Mb
+#5990758	RELOAD cov: 5945 ft: 16295 corp: 1273/1422Kb exec/s: 847 rss: 507Mb
+lf_client: ssl/packet.c:42: int WPACKET_reserve_bytes(WPACKET *, size_t, unsigned char **): Assertion `pkt->subs != NULL && len != 0' failed.
+==65== ERROR: libFuzzer: deadly signal
+    #0 0x4eb3a3 in __sanitizer_print_stack_trace /src/llvm/projects/compiler-rt/lib/asan/asan_stack.cc:38
+    #1 0x541425 in fuzzer::Fuzzer::CrashCallback() /src/libfuzzer/FuzzerLoop.cpp:195:5
+    #2 0x5413bc in fuzzer::Fuzzer::StaticCrashSignalCallback() /src/libfuzzer/FuzzerLoop.cpp:179:6
+    #3 0x7ff9a4bed38f  (/lib/x86_64-linux-gnu/libpthread.so.0+0x1138f)
+    #4 0x7ff9a442a427 in gsignal (/lib/x86_64-linux-gnu/libc.so.6+0x35427)
+    #5 0x7ff9a442c029 in abort (/lib/x86_64-linux-gnu/libc.so.6+0x37029)
+    #6 0x7ff9a4422bd6  (/lib/x86_64-linux-gnu/libc.so.6+0x2dbd6)
+    #7 0x7ff9a4422c81 in __assert_fail (/lib/x86_64-linux-gnu/libc.so.6+0x2dc81)
+    #8 0x6284c3 in WPACKET_reserve_bytes /src/openssl/ssl/packet.c:42:5
+    #9 0x6281ad in WPACKET_allocate_bytes /src/openssl/ssl/packet.c:17:10
+    #10 0x62853a in WPACKET_sub_allocate_bytes__ /src/openssl/ssl/packet.c:29:17
+    #11 0x5edbc6 in tls_construct_cke_dhe /src/openssl/ssl/statem/statem_clnt.c:2495:10
+    #12 0x5e151e in tls_construct_client_key_exchange /src/openssl/ssl/statem/statem_clnt.c:2721:14
+    #13 0x5dc983 in write_state_machine /src/openssl/ssl/statem/statem.c:761:45
+    #14 0x5da819 in state_machine /src/openssl/ssl/statem/statem.c:380:21
+    #15 0x5c7256 in SSL_do_handshake /src/openssl/ssl/ssl_lib.c:3107:19
+    #16 0x51ab48 in FuzzerTestOneInput /src/openssl/fuzz/client.c:73:9
+    #17 0x5440a9 in fuzzer::Fuzzer::ExecuteCallback(unsigned char const*, unsigned long) /src/libfuzzer/FuzzerLoop.cpp:458:13
+    #18 0x5448da in fuzzer::Fuzzer::RunOne(unsigned char const*, unsigned long) /src/libfuzzer/FuzzerLoop.cpp:397:3
+    #19 0x546201 in fuzzer::Fuzzer::MutateAndTestOne() /src/libfuzzer/FuzzerLoop.cpp:596:30
+    #20 0x5469c7 in fuzzer::Fuzzer::Loop() /src/libfuzzer/FuzzerLoop.cpp:624:5
+    #21 0x52747b in fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long)) /src/libfuzzer/FuzzerDriver.cpp:744:6
+    #22 0x51ae08 in main /src/libfuzzer/FuzzerMain.cpp:20:10
+    #23 0x7ff9a441582f in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2082f)
+    #24 0x41f188 in _start (/out/lf_client+0x41f188)
+
+NOTE: libFuzzer has rudimentary signal handlers.
+      Combine libFuzzer with AddressSanitizer or similar for better crash reports.
+SUMMARY: libFuzzer: deadly signal
+MS: 2 PersAutoDict-CopyPart- DE: "\x00\x00\x00\x00\x00\x00\x00\x06"-; base unit: d1c30aa9e85e2fd8d5ac3ced97f046037e273c24
+artifact_prefix='./'; Test unit written to ./crash-86e2a95ad0589bf62529f2d79a45aa32021c5af0
+stat::number_of_executed_units: 7429225
+stat::average_exec_per_sec:     847
+stat::new_units_added:          16
+stat::slowest_unit_time_sec:    0
+stat::peak_rss_mb:              509
