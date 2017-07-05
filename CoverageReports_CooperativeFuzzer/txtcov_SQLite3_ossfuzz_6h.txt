@@ -1,2 +1,0 @@
-/src/sqlite3/bld/sqlite3.c	039%
-/src/sqlite3/test/ossfuzz.c	066%
