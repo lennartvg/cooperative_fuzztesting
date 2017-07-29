@@ -3,7 +3,6 @@
 -<strong>run_lf.py:</strong><br>
 Runs libFuzzer for 6 hours on 4 threads, and starts the covtracker.<br>
 Usage: run_lf.py <lf_binary> <seed_corp_dir> <out_corp_dir> <dictionary(optional)><br>
-<br>
 
 
 -<strong>run_afl.py:</strong><br>
@@ -14,7 +13,7 @@ Runs AFL for 6 hours on 4 threads, and starts the covtracker.<br>
 -<strong>run_cooperative.py:</strong><br>
 Runs the cooperative fuzzer of AFL and libFuzzer, for 12 hours on 4 threads (per round: afl 40min, lf 20min). <br>
 Uses an inbuilt coverage tracker that copies the synthesized corpus every time a fuzzer finishes its timeframe.<br>
-Usage: <italic>run_cooperative.py</italic> <lf_binary> <afl_binary> <seed_corp_dir> <out_corp_dir> <dictionary(optional)> 
+<em>Usage:</em> run_cooperative.py <lf_binary> <afl_binary> <seed_corp_dir> <out_corp_dir> <dictionary(optional)> 
 <br>
 
 -<strong>covtracker.py:</strong><br>
