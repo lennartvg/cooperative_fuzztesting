@@ -1,9 +1,9 @@
 # VU_cooperative_fuzz
 
 -run_lf.py: 
-Runs libFuzzer for 6 hours on 4 threads, and starts the covtracker.
+Runs libFuzzer for 6 hours on 4 threads, and starts the covtracker.<br>
+Usage: run_lf.py <lf_binary> <seed_corp_dir> <out_corp_dir> <dictionary(optional)>
 <hr>
-
 -run_afl.py:
 Runs AFL for 6 hours on 4 threads, and starts the covtracker.
 
