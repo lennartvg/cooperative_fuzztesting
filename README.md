@@ -2,6 +2,7 @@
 
 -run_lf.py: 
 Runs libFuzzer for 6 hours on 4 threads, and starts the covtracker.
+<hr>
 
 -run_afl.py:
 Runs AFL for 6 hours on 4 threads, and starts the covtracker.
